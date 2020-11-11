@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+main {
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+p {
+    flex-grow: 1;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gainsboro;
+}
+
+img {
+    width: 70%;
+    transition: 1s;
+}
+
+.product:hover img {
+    width: 80%
+}
+
+.fotoproduct {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa-question-circle {
+    color: gray;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+span:first-child {
+    margin-right: 20px; 
+}
+
+span:last-child {
+    margin-right: 10px;
+    transition: 1s;
+    opacity: 0;
+}
+
+.product:hover span:last-child {
+    opacity: 1;
+}
+
+.price {
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.colortext {
+    color: orange;
+    font-size: 20px;
+}
+
+.price > p {
+    margin: 10px;
+}
+
+button {
+    color: white;
+    padding: 5px 0px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+}
+
+.onebutton {
+    background: orange;
+    margin: 10px;
+}
+
+.twobutton {
+    margin: 10px;
+    background: green;
+    transition: 1s;
+    opacity: 0;
+}
+
+.product:hover .twobutton {
+    opacity: 1;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color:  gray;
+}
+
+
+
